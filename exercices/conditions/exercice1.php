@@ -1,7 +1,5 @@
 <?php
 
-// Exercice 1
-
 $connect = true;
 
 if($connect == true) {
