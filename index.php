@@ -9,7 +9,7 @@
 <body>
     <h1>Exercices PHP</h1>
     <section>
-        <h2>Conditions</h2>
+        <h2>Conditions :</h2>
         <ul>
             <li><a href="/exercices/conditions/exercice1.php">exercice 1</a></li>
             <li><a href="/exercices/conditions/exercice2.php">exercice 2</a></li>
@@ -25,7 +25,16 @@
         </ul>
     </section>
     <section>
-        <h2>Conditions</h2>
+        <h2>Tableaux :</h2>
+        <ul>
+            <li><a href="/exercices/tableaux/exercice1.php">exercice 1</a></li>
+            <li><a href="/exercices/tableaux/exercice2.php">exercice 2</a></li>
+            <li><a href="/exercices/tableaux/exercice3.php">exercice 3</a></li>
+            <li><a href="/exercices/tableaux/exercice4.php">exercice 4</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Formulaires</h2>
         <ul>
             <li><a href="/exercices/tableaux/exercice1.php">exercice 1</a></li>
         </ul>

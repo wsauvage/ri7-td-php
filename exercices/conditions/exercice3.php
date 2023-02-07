@@ -1,20 +1,16 @@
 <?php
 
-$age = 0;
+/*
+  Écrivez un code PHP pour déterminer si une personne est admissible à un emprunt. 
+  Si son salaire est supérieur ou égal à 50 000 $ et qu'elle a moins de 30 ans, affichez 
+  "Admissible à l'emprunt.", sinon affichez "Non admissible à l'emprunt."
+*/
 
-switch ($age) {
-  case $age <= 0:
-    echo "T'es pas encore né.";
-    break;
-  case $age < 18:
-    echo "Vous êtes mineur.";
-    break;
-  case $age >= 18 && $age < 25:
-    echo "Vous êtes un jeune adulte.";
-    break;
-  case $age >= 25 && $age < 65:
-    echo "Vous êtes un adulte.";
-    break;
-  default:
-    echo "Vous êtes à la retraite. (ou pas mdr)";
+$age = 0;
+$salary = 0;
+
+if ($age < $age && $salary >= 50000) {
+  echo "<p>Admissible à l'emprunt.</p>";
+} else {
+  echo "<p>Non Admissible à l'emprunt.</p>";
 }

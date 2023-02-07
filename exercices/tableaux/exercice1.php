@@ -1,25 +1,12 @@
 <?php
 
-$tableaux = [
-    'infos' => [
-        'nom' => 'Pesto',
-        'prenom' => 'Julia',
-        'age' => 30
-    ],
-    'films' => [
-        'action' => ['Piège de cristal', 'Mad Max', 'Terminator', 'Matrix'],
-        'comédie' => ['Brice de Nice', 'Les Visiteurs', 'Le Dîner de cons', 'Neuilly sa mère !'],
-    ],
-];
+/*
+  Écrivez un code PHP qui déclare un tableau contenant les noms de 5 fruits, 
+  puis affiche le contenu de ce tableau à l'aide d'une boucle.
+*/
 
-foreach($tableaux['infos'] as $key => $item) {
-    echo "<div>$key : $item</div>";
-}
+$fruits = ['orange', 'apple', 'strawberry', 'pear', 'banana'];
 
-foreach($tableaux['films']['action'] as $item) {
-    echo "<div>action : $item</div>";
-}
-
-foreach($tableaux['films']['comédie'] as $item) {
-    echo "<div>comédie : $item</div>";
+for ($i = 0; $i < count($fruits); $i++) { 
+  echo "<p>$fruits[$i]</p>";
 }
