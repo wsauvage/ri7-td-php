@@ -4,8 +4,6 @@
   Créez un formulaire en PHP qui permet à l'utilisateur de saisir une couleur 
   HEX, une largeur, une hauteur, un arrondie des bord (border-radius), 
   et de génèrer un rectangle (ou carré) sur la page web.
-
-  Bonne chance!
 */
 
 ?>
