@@ -12,7 +12,7 @@ switch ($dayNumber) {
     echo "<p>Lundi</p>";
     break;
   case 2:
-    echo "<p>Mardi";
+    echo "<p>Mardi</p>";
     break;
   case 3:
     echo "<p>Mercredi</p>";

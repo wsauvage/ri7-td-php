@@ -9,7 +9,7 @@
 $age = 0;
 $salary = 0;
 
-if ($age < $age && $salary >= 50000) {
+if ($age < 30 && $salary >= 50000) {
   echo "<p>Admissible à l'emprunt.</p>";
 } else {
   echo "<p>Non Admissible à l'emprunt.</p>";
