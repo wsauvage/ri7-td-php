@@ -7,9 +7,9 @@ $firstname = 'Axel';
 $lastname = 'Mitschi';
 
 if (preg_match($regex, $firstname)) {
-  echo "prénom est ok\n";
+  echo "prénom est ok<br>";
 }
 
 if (preg_match($regex, $lastname)) {
-  echo "nom est ok\n";
+  echo "nom est ok";
 }

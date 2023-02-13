@@ -6,6 +6,5 @@ $regex = '/[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+/';
 $email = 'axel.mitschi@gmail.com';
 
 if (preg_match($regex, $email)) {
-  echo "email est ok\n";
+  echo "l'email est ok\n";
 }
-

@@ -53,5 +53,13 @@
             <li><a href="/exercices/fonctions/exercice4.php">exercice 4</a></li>
         </ul>
     </section>
+    <section>
+        <h2>Regex :</h2>
+        <ul>
+            <li><a href="/exercices/regex/exercice1.php">exercice 1</a></li>
+            <li><a href="/exercices/regex/exercice2.php">exercice 2</a></li>
+            <li><a href="/exercices/regex/exercice3.php">exercice 3</a></li>
+        </ul>
+    </section>
 </body>
 </html>

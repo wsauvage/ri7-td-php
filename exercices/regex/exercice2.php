@@ -6,6 +6,5 @@ $regex = '/[0-9]{10}/';
 $number = '0635268806';
 
 if (preg_match($regex, $number)) {
-  echo "numéro de de tel est ok\n";
+  echo "le numéro de tel est ok\n";
 }
-
